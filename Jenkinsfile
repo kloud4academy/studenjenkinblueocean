@@ -17,13 +17,13 @@ pipeline {
 
         stage('Testing FireBox') {
           steps {
-            echo 'Testing FireBox'
+            echo 'Testing FireBox Testing Chrome browder'
           }
         }
 
         stage('Testing Chrome') {
           steps {
-            echo 'Testing Chrome'
+            echo 'Testing Chrome browder'
           }
         }
 
