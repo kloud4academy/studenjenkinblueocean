@@ -11,19 +11,19 @@ pipeline {
       parallel {
         stage('Test') {
           steps {
-            echo 'Testing..'
+            echo '1111Testing..'
           }
         }
 
         stage('Testing FireBox') {
           steps {
-            echo 'Testing FireBox Testing Chrome browder'
+            echo '1111Testing FireBox Testing Chrome browder'
           }
         }
 
         stage('Testing Chrome') {
           steps {
-            echo 'Testing Chrome browder'
+            echo '111Testing Chrome browder'
           }
         }
 
